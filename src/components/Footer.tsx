@@ -9,32 +9,32 @@ export function Footer() {
               <img src="/images/hously-logo.svg" alt="Пространство" width={120} height={32} className="w-auto h-6" />
             </a>
             <p className="text-muted-foreground leading-relaxed max-w-sm">
-              Создаем пространства для жизни. Архитектурный опыт, где форма, свет и намерение встречаются.
+              Личный проект дизайна квартиры. Пространство, созданное с заботой о каждой детали и вниманием к свету, форме и уюту.
             </p>
           </div>
 
           {/* Navigation */}
           <div>
-            <h4 className="text-sm font-medium mb-4">Студия</h4>
+            <h4 className="text-sm font-medium mb-4">Разделы</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
                 <a href="#projects" className="hover:text-foreground transition-colors">
-                  Проекты
+                  Комнаты
                 </a>
               </li>
               <li>
                 <a href="#about" className="hover:text-foreground transition-colors">
-                  О нас
+                  Философия
                 </a>
               </li>
               <li>
                 <a href="#services" className="hover:text-foreground transition-colors">
-                  Услуги
+                  Направления
                 </a>
               </li>
               <li>
-                <a href="#contact" className="hover:text-foreground transition-colors">
-                  Контакты
+                <a href="#faq" className="hover:text-foreground transition-colors">
+                  Полезно знать
                 </a>
               </li>
             </ul>
@@ -70,7 +70,7 @@ export function Footer() {
 
         {/* Bottom bar */}
         <div className="pt-8 border-t border-border flex flex-col md:flex-row md:items-center justify-between gap-4 text-sm text-muted-foreground">
-          <p>© 2025 Пространство. Все права защищены.</p>
+          <p>© 2026 Моя квартира. Личный проект.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-foreground transition-colors">
               Политика конфиденциальности
